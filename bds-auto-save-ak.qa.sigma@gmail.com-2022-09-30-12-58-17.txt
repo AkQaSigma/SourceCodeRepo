@@ -1,0 +1,4 @@
+?? .gitignore
+?? .metals/metals.log
+?? .metals/metals.mv.db
+?? bds-auto-save-ak.qa.sigma@gmail.com-2022-09-30-12-58-17.txt

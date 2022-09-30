@@ -1,0 +1,38 @@
+2022.09.30 11:57:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/BlackDiamond/workspace/.metals/lsp.trace.json or /home/BlackDiamond/.cache/metals/lsp.trace.json
+2022.09.30 11:57:26 INFO  logging to file /home/BlackDiamond/workspace/.metals/metals.log
+2022.09.30 11:57:26 INFO  Started: Metals version 0.11.7-SNAPSHOT in workspace '/home/BlackDiamond/workspace' for client code-server 1.63.0.
+2022.09.30 11:57:27 INFO  time: initialize in 1.2s
+2022.09.30 11:57:28 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.30 11:57:28 WARN  Build server is not auto-connectable.
+Sep 30, 2022 11:57:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.09.30 11:58:26 INFO  shutting down Metals
+2022.09.30 11:58:26 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.09.30 11:59:45 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/BlackDiamond/workspace/.metals/lsp.trace.json or /home/BlackDiamond/.cache/metals/lsp.trace.json
+2022.09.30 11:59:46 INFO  logging to file /home/BlackDiamond/workspace/.metals/metals.log
+2022.09.30 11:59:46 INFO  Started: Metals version 0.11.7-SNAPSHOT in workspace '/home/BlackDiamond/workspace' for client code-server 1.63.0.
+2022.09.30 11:59:46 INFO  time: initialize in 0.69s
+2022.09.30 11:59:48 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.30 11:59:48 WARN  Build server is not auto-connectable.
+2022.09.30 11:59:49 INFO  skipping build import with status 'Requested'
+2022.09.30 11:59:51 INFO  shutting down Metals
+2022.09.30 12:24:40 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/BlackDiamond/workspace/.metals/lsp.trace.json or /home/BlackDiamond/.cache/metals/lsp.trace.json
+2022.09.30 12:24:41 INFO  logging to file /home/BlackDiamond/workspace/.metals/metals.log
+2022.09.30 12:24:41 INFO  Started: Metals version 0.11.7-SNAPSHOT in workspace '/home/BlackDiamond/workspace' for client code-server 1.63.0.
+2022.09.30 12:24:42 INFO  time: initialize in 0.68s
+2022.09.30 12:24:43 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.30 12:24:43 WARN  Build server is not auto-connectable.
+2022.09.30 12:24:44 INFO  skipping build import with status 'Requested'
+2022.09.30 12:25:09 INFO  shutting down Metals
